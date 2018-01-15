@@ -8,12 +8,12 @@ import org.slf4j.LoggerFactory;
  */
 public class MisMatematicas
 {
-	static Logger log= LoggerFactory.getLogger(App1.class);
+	static Logger log= LoggerFactory.getLogger(MisMatematicas.class);
 
 	public static void main(String[] args) {
 		int a = 10;
 		int b = 2;
-		System.out.println(a + "/" + b + " = " + App1.divide(a,b));
+		System.out.println(a + "/" + b + " = " + MisMatematicas.divide(a,b));
 	}
 	
 	public static int divide(int a, int b){
