@@ -6,7 +6,7 @@ import org.slf4j.LoggerFactory;
  * DIVISION
  *
  */
-public class App1 
+public class MisMatematicas
 {
 	static Logger log= LoggerFactory.getLogger(App1.class);
 
